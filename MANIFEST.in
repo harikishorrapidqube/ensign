@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ensign *.css
+recursive-include ensign *.csv
+recursive-include ensign *.html
+recursive-include ensign *.ico
+recursive-include ensign *.js
+recursive-include ensign *.json
+recursive-include ensign *.md
+recursive-include ensign *.png
+recursive-include ensign *.py
+recursive-include ensign *.svg
+recursive-include ensign *.txt
+recursive-exclude ensign *.pyc
