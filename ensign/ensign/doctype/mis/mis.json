@@ -1,0 +1,429 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2022-09-28 15:16:57.805057",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "last_name",
+  "customer_name",
+  "secondary_name",
+  "email_id",
+  "contact_no",
+  "column_break_11",
+  "pincode",
+  "location",
+  "vertical",
+  "address",
+  "section_break_12",
+  "lob",
+  "insurer_lob_name",
+  "product_uiin",
+  "product_term",
+  "package_type",
+  "prm_payment_termfreq",
+  "reg_no",
+  "make",
+  "model",
+  "gvw",
+  "cc",
+  "regn_date",
+  "yom",
+  "engine_no",
+  "chasis_no",
+  "previous_policy_no",
+  "previous_ncb",
+  "insurer_name",
+  "column_break_31",
+  "co_insurance",
+  "policy_no",
+  "endo_no",
+  "rsd",
+  "red",
+  "sum_insured",
+  "ncb",
+  "dtd",
+  "od_prm",
+  "add_on_prm",
+  "tp_prm",
+  "net_prm",
+  "terrorism_prm",
+  "gst",
+  "stamp_duty",
+  "total_prm",
+  "comm_prm",
+  "payment_mode",
+  "brokerage",
+  "column_break_45",
+  "brokerage_amount",
+  "gross_brokerage",
+  "chq_no_ref_no",
+  "chq_date",
+  "chq_bank",
+  "chq_amount",
+  "agent_code",
+  "agent_name",
+  "so_name",
+  "posp_non_posp",
+  "policy_status",
+  "policy_copy",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "MIS-"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "City"
+  },
+  {
+   "fieldname": "vertical",
+   "fieldtype": "Link",
+   "label": "Vertical",
+   "options": "Vertical"
+  },
+  {
+   "fieldname": "lob",
+   "fieldtype": "Link",
+   "label": "LOB",
+   "options": "LOB"
+  },
+  {
+   "fieldname": "insurer_lob_name",
+   "fieldtype": "Link",
+   "label": "Insurer Lob Name",
+   "options": "Insurer Lob Name"
+  },
+  {
+   "fieldname": "product_uiin",
+   "fieldtype": "Small Text",
+   "label": "Product Uiin"
+  },
+  {
+   "fieldname": "product_term",
+   "fieldtype": "Select",
+   "label": "Product Term",
+   "options": "6 Days\n8 Days\n1 Months\n2 Months\n3 Months\n6 Months\n8 Months\n9 Months\n1 Year\n2 Year"
+  },
+  {
+   "fieldname": "package_type",
+   "fieldtype": "Select",
+   "label": "Package Type",
+   "options": "Bundled\nCargo Open\nExport\nExport Import\nImport\nInland\nInland Declaration\nLong Term\nod Only\nPackage\nTp Only"
+  },
+  {
+   "fieldname": "prm_payment_termfreq",
+   "fieldtype": "Data",
+   "label": "Prm Payment Term/Freq"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "secondary_name",
+   "fieldtype": "Data",
+   "label": "Secondary Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Data",
+   "label": "Contact No"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email Id",
+   "options": "Email"
+  },
+  {
+   "fieldname": "reg_no",
+   "fieldtype": "Data",
+   "label": "Reg No"
+  },
+  {
+   "fieldname": "make",
+   "fieldtype": "Data",
+   "label": "Make"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "gvw",
+   "fieldtype": "Data",
+   "label": "GVW"
+  },
+  {
+   "fieldname": "cc",
+   "fieldtype": "Data",
+   "label": "CC"
+  },
+  {
+   "fieldname": "regn_date",
+   "fieldtype": "Data",
+   "label": "Regn Date"
+  },
+  {
+   "fieldname": "yom",
+   "fieldtype": "Data",
+   "label": "YOM"
+  },
+  {
+   "fieldname": "engine_no",
+   "fieldtype": "Data",
+   "label": "Engine No"
+  },
+  {
+   "fieldname": "chasis_no",
+   "fieldtype": "Data",
+   "label": "Chasis No"
+  },
+  {
+   "fieldname": "previous_policy_no",
+   "fieldtype": "Data",
+   "label": "Previous Policy No"
+  },
+  {
+   "fieldname": "previous_ncb",
+   "fieldtype": "Data",
+   "label": "Previous NCB"
+  },
+  {
+   "fieldname": "insurer_name",
+   "fieldtype": "Data",
+   "label": "Insurer Name"
+  },
+  {
+   "fieldname": "co_insurance",
+   "fieldtype": "Data",
+   "label": "Co Insurance"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "endo_no",
+   "fieldtype": "Data",
+   "label": "Endo No"
+  },
+  {
+   "fieldname": "rsd",
+   "fieldtype": "Date",
+   "label": "Rsd"
+  },
+  {
+   "fieldname": "red",
+   "fieldtype": "Date",
+   "label": "Red"
+  },
+  {
+   "fieldname": "sum_insured",
+   "fieldtype": "Data",
+   "label": "Sum Insured"
+  },
+  {
+   "fieldname": "ncb",
+   "fieldtype": "Data",
+   "label": "NCB"
+  },
+  {
+   "fieldname": "dtd",
+   "fieldtype": "Data",
+   "label": "DTD%"
+  },
+  {
+   "fieldname": "od_prm",
+   "fieldtype": "Currency",
+   "label": "OD PRM"
+  },
+  {
+   "fieldname": "add_on_prm",
+   "fieldtype": "Currency",
+   "label": "Add on PRM"
+  },
+  {
+   "fieldname": "tp_prm",
+   "fieldtype": "Currency",
+   "label": "TP Prm"
+  },
+  {
+   "fieldname": "net_prm",
+   "fieldtype": "Currency",
+   "label": "Net Prm"
+  },
+  {
+   "fieldname": "terrorism_prm",
+   "fieldtype": "Currency",
+   "label": "Terrorism Prm"
+  },
+  {
+   "fieldname": "gst",
+   "fieldtype": "Currency",
+   "label": "Gst"
+  },
+  {
+   "fieldname": "stamp_duty",
+   "fieldtype": "Currency",
+   "label": "Stamp Duty"
+  },
+  {
+   "fieldname": "total_prm",
+   "fieldtype": "Currency",
+   "label": "Total Prm"
+  },
+  {
+   "fieldname": "comm_prm",
+   "fieldtype": "Currency",
+   "label": "Comm Prm"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Select",
+   "label": "Payment Mode",
+   "options": "\nCD Balance\nCDT\nCheque\nCheque/Online\nNEFT\nOnline\nOnline Payment\nPayment Link Sent\nPayment Link Pending\nPending Payment"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_31",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "brokerage",
+   "fieldtype": "Percent",
+   "label": "Brokerage(%)"
+  },
+  {
+   "fieldname": "brokerage_amount",
+   "fieldtype": "Currency",
+   "label": "Brokerage Amount"
+  },
+  {
+   "fieldname": "gross_brokerage",
+   "fieldtype": "Currency",
+   "label": "Gross Brokerage"
+  },
+  {
+   "fieldname": "chq_no_ref_no",
+   "fieldtype": "Data",
+   "label": "Chq No/Ref No"
+  },
+  {
+   "fieldname": "chq_date",
+   "fieldtype": "Data",
+   "label": "Chq Date"
+  },
+  {
+   "fieldname": "chq_bank",
+   "fieldtype": "Data",
+   "label": "Chq Bank"
+  },
+  {
+   "fieldname": "chq_amount",
+   "fieldtype": "Currency",
+   "label": "Chq Amount"
+  },
+  {
+   "fieldname": "agent_code",
+   "fieldtype": "Data",
+   "label": "Agent Code"
+  },
+  {
+   "fieldname": "agent_name",
+   "fieldtype": "Data",
+   "label": "Agent Name"
+  },
+  {
+   "fieldname": "so_name",
+   "fieldtype": "Data",
+   "label": "So Name"
+  },
+  {
+   "fieldname": "posp_non_posp",
+   "fieldtype": "Data",
+   "label": "Posp Non/Posp"
+  },
+  {
+   "fieldname": "policy_status",
+   "fieldtype": "Data",
+   "label": "Policy Status"
+  },
+  {
+   "fieldname": "policy_copy",
+   "fieldtype": "Select",
+   "label": "Policy Copy",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-09-29 14:55:19.333835",
+ "modified_by": "Administrator",
+ "module": "ensign",
+ "name": "MIS",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

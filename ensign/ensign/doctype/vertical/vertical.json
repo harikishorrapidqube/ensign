@@ -1,41 +1,26 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "naming_series:",
- "creation": "2022-09-28 15:16:57.805057",
+ "creation": "2022-09-29 11:59:00.150160",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "naming_series",
-  "first_name",
-  "last_name"
+  "vertical"
  ],
  "fields": [
   {
-   "fieldname": "naming_series",
-   "fieldtype": "Select",
-   "label": "Naming Series",
-   "options": "EN-"
-  },
-  {
-   "fieldname": "first_name",
+   "fieldname": "vertical",
    "fieldtype": "Data",
-   "label": "First Name"
-  },
-  {
-   "fieldname": "last_name",
-   "fieldtype": "Data",
-   "label": "Last Name"
+   "label": "Vertical"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-28 15:18:06.464831",
+ "modified": "2022-09-29 11:59:00.150160",
  "modified_by": "Administrator",
  "module": "ensign",
- "name": "Ensign",
- "naming_rule": "By \"Naming Series\" field",
+ "name": "Vertical",
  "owner": "Administrator",
  "permissions": [
   {
