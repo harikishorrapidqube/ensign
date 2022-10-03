@@ -1,6 +1,8 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:lob",
  "creation": "2022-09-29 12:09:50.355998",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -12,15 +14,17 @@
   {
    "fieldname": "lob",
    "fieldtype": "Data",
-   "label": "LOB"
+   "label": "LOB",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-29 12:09:50.355998",
+ "modified": "2022-09-30 09:44:57.706504",
  "modified_by": "Administrator",
  "module": "ensign",
  "name": "LOB",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -39,5 +43,6 @@
  "show_name_in_global_search": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "lob"
 }

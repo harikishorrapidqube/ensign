@@ -1,6 +1,8 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:vertical",
  "creation": "2022-09-29 11:59:00.150160",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -12,15 +14,17 @@
   {
    "fieldname": "vertical",
    "fieldtype": "Data",
-   "label": "Vertical"
+   "label": "Vertical",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-29 11:59:00.150160",
+ "modified": "2022-09-30 09:42:41.584843",
  "modified_by": "Administrator",
  "module": "ensign",
  "name": "Vertical",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -39,5 +43,6 @@
  "show_name_in_global_search": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "vertical"
 }

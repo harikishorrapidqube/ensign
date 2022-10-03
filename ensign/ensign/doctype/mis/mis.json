@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "naming_series:",
  "creation": "2022-09-28 15:16:57.805057",
@@ -98,15 +99,13 @@
   },
   {
    "fieldname": "lob",
-   "fieldtype": "Link",
-   "label": "LOB",
-   "options": "LOB"
+   "fieldtype": "Data",
+   "label": "LOB"
   },
   {
    "fieldname": "insurer_lob_name",
-   "fieldtype": "Link",
-   "label": "Insurer Lob Name",
-   "options": "Insurer Lob Name"
+   "fieldtype": "Data",
+   "label": "Insurer Lob Name"
   },
   {
    "fieldname": "product_uiin",
@@ -115,15 +114,13 @@
   },
   {
    "fieldname": "product_term",
-   "fieldtype": "Select",
-   "label": "Product Term",
-   "options": "6 Days\n8 Days\n1 Months\n2 Months\n3 Months\n6 Months\n8 Months\n9 Months\n1 Year\n2 Year"
+   "fieldtype": "Data",
+   "label": "Product Term"
   },
   {
    "fieldname": "package_type",
-   "fieldtype": "Select",
-   "label": "Package Type",
-   "options": "Bundled\nCargo Open\nExport\nExport Import\nImport\nInland\nInland Declaration\nLong Term\nod Only\nPackage\nTp Only"
+   "fieldtype": "Data",
+   "label": "Package Type"
   },
   {
    "fieldname": "prm_payment_termfreq",
@@ -308,9 +305,8 @@
   },
   {
    "fieldname": "payment_mode",
-   "fieldtype": "Select",
-   "label": "Payment Mode",
-   "options": "\nCD Balance\nCDT\nCheque\nCheque/Online\nNEFT\nOnline\nOnline Payment\nPayment Link Sent\nPayment Link Pending\nPending Payment"
+   "fieldtype": "Data",
+   "label": "Payment Mode"
   },
   {
    "fieldname": "column_break_11",
@@ -402,7 +398,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-29 14:55:19.333835",
+ "modified": "2022-10-03 15:13:58.627509",
  "modified_by": "Administrator",
  "module": "ensign",
  "name": "MIS",
