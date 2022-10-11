@@ -186,11 +186,14 @@ app_license = "MIT"
 #	"ensign.auth.validate"
 # ]
 # fixtures=["Custom Field","Doctype","Custom Script"]
+
+
 fixtures = [
     {"dt": "DocType", "filters": [
         [
             "name", "in", [
-                "Lead"
+                "Lead",
+                "Prospect"
             ]
         ]
     ]}
